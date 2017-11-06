@@ -1,0 +1,42 @@
+html {}
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+#W_menu UL {
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#W_menu li {
+  position: relative;
+  background:#EFEFEF; 
+}
+
+#W_menu a {
+  display:block;
+  text-decoration: none;
+  color: #000;
+}
+
+#W_menul ul {
+  position: absolute;
+  left:-999em;
+}
+#W_menu li:hover ul {
+  top: 0;
+  left: 180px;
+}
+
+article p {
+  color: red;
+}
