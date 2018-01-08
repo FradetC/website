@@ -1,0 +1,47 @@
+body {
+  background-color: lightblue;
+  margin : 0;
+}
+
+header {
+  background-color: rgb(52, 152, 219);
+  color:white;
+  text-align : center;
+  padding: 1em;
+}
+
+header h1 {
+  font-size : 3em;
+   margin:0; /* pas de marge autour du titre */
+}
+
+header h2 {
+  font-size : 2em;
+   margin:0; /* pas de marge autour du titre secondaire */
+}
+
+nav {
+  float:left;
+  width: 10%;
+}
+
+section {
+  padding:1em;
+  margin-left:10%;
+  background-color:white;
+}
+
+article {
+  margin-bottom : 1em; /* marge entre articles */ 
+  padding : 1em; /* marge intérieure */
+  border: 2px solid blue; /* bordure bleue */
+  border-radius: 25px; /* bordure arrondie */ 
+  box-shadow: 5px 5px grey; /* bordure avc ombre */
+  overflow:auto;   /* le contenu (l'image flottante entre autres) ne dépasse pas le contenant */
+}
+
+section img, section video {
+  float : left; /* l'image à gauche avec le texte autour */
+  width: 25%; /* taille par défaut */
+  margin : 0 1em 1em 0; /* marge à droite et en bas de l'image pour que le texte ne soit pas collée */
+}
