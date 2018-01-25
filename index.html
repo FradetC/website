@@ -2,8 +2,8 @@
 
 <head>
   <meta charset="TUF-8">
-  <title>CODE ACADEMIE</title>
-  <link rel="stylesheet" href="corr_code_academie.css">
+  <title>TEST - CODE ACADEMIE</title>
+  <link rel="stylesheet" href="code_accademie_flex.css">
 
 </head>
 
@@ -11,31 +11,45 @@
   <!-- -->
 
   <header>
-    <h1>CODE ACADEMIE</h1>
+    <h1>--- CODE ACADEMIE ---</h1>
   </header>
 
-  <nav>
-    <h2>Menu</h2>
-    <ul>
-      <li><a href="#">Articles</a></li>
-      <li><a href="#">A propos</a></li>
-    </ul>
-  </nav>
+  <div id="contenu_principal">
+    <nav>
+      <h2>MENU</h2>
+      <ul>
+        <li><a href="contact.html">Articles</a></li>
+        <li><a href="#">A propos</a></li>
+      </ul>
+    </nav>
 
-  <section>
-    <article>
-      <h2>Un article avec Image</h2>
-      <img src="nemo.png" alt="NEMO" height="42" width="42">
-      <p>Le monde de Nemo</p>
-    </article>
-    <article>
-      <h2>Un article avec Video</h2>
-      <video width="320" height="240" controls>
-      <source src="https://www.youtube.com/watch?v=mDkKfXvYFqI" type="video/mp4">
-          </video>
-      <p>Coulon le marais Poitevin</p>
-    </article>
-  </section>
+    <!-- Début déclaration de la Zone des articles -->
+    <section>
+      <!-- Contenu textuel de la page -->
+      <article>
+        <h2>Un article avec Image</h2>
+        <img src="nemo.png" alt="NEMO">
+        <p>Nemo</p>
+      </article>
+
+      <article>
+        <video controls> 
+               <source src="http://sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+      </video>
+        <h2>Un article avec une video</h3>
+      </article>
+
+      <article>
+       <!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/qJ-2YOy4Q5E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        -->
+        <iframe src="https://www.youtube.com/embed/qJ-2YOy4Q5E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2>Un article avec une video</h3>
+          <p>Le monde NEMO</p>
+      </article>
+
+    </section>
+  </div>
+
 </body>
 
 </html>

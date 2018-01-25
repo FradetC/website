@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <meta charset="TUF-8">
+  <title>CONTACT</title>
+  <link rel="stylesheet" href="code_accademie_flex.css">
+
+</head>
+
+<body>
+  <!-- -->
+  <header>
+    <h1>Entrer vos coordonnées</h1>
+
+  </header>
+  <!--
+  <form method="post" action="index.html">
+    <p>
+      <label>Votre Nom</label> : <input type="text" name="nom" />
+      <label>Votre Prénom</label> : <input type="text" name="prenom" />
+      <label>Votre adresse mail</label> : <input type="text" name="mail" />
+      <input type="submit" value="Valider" />
+    </p>
+  </form>
+-->
+
+  <form name="mon-formulaire1" ACTION="mailto:cecile.fradet@maif.fr" method="post" ENCTYPE="text/plain">
+    <p>
+      <input type="radio" name="civi" value="Mme" /> Madame
+      <input type="radio" name="civi" value="Mlle" /> Mademoiselle
+      <input type="radio" name="civi" value="Mr" /> Monsieur
+    </p>
+    <p>
+      Votre prénom :<br />
+      <label for="prenom">Prenom</label>
+      <input type="text" name="prenom" value="" placeholder="Votre Prenom" />
+    </p>
+    <p>
+      Votre nom :<br />
+      <input type="text" name="nom" value="" />
+    </p>
+    <p>
+      Votre adresse mail :<br />
+      <input type="mail" name="adrmail" value="" />
+    </p>
+    <p>
+      Votre message :<br />
+      <textarea name="le-message" rows="6" cols="40">Vous pouvez saisir ici un message.</textarea>
+    </p>
+    <p>
+      <input type="submit" value="Envoyer" />
+      <input type="reset" value="Annuler" />
+    </p>
+  </form>
+
+</body>

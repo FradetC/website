@@ -57,8 +57,8 @@ body {
 } 
  
  
-#contenu_principal > section img, #contenu_principal >  section video { 
-53   float : left; /* l'image à gauche avec le texte autour */ 
-54   width: 25%; /* taille par défaut en pourcentage du conteneur parent (l'article) */ 
-55   margin : 0 1em 1em 0; /* marge à droite et en bas de l'image pour que le texte ne soit pas collée */ 
-56 } 
+#contenu_principal > section img, #contenu_principal >  section video, #contenu_principal >  section iframe { 
+  float : left; /* l'image à gauche avec le texte autour */ 
+  width: 25%; /* taille par défaut en pourcentage du conteneur parent (l'article) */ 
+  margin : 0 1em 1em 0; /* marge à droite et en bas de l'image pour que le texte ne soit pas collée */ 
+} 
